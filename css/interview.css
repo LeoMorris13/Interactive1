@@ -1,0 +1,9 @@
+
+body {
+    background-color: rgb(230, 85, 49);
+    /* The above is called a hex code.
+       There are two other ways to do colors in CSS: rgb and common names */
+    color: white;
+    font-size: 22px;
+    font-family: Futura lighter, "Trebuchet MS", Arial, sans-serif
+  }
