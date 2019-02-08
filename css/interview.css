@@ -6,4 +6,12 @@ body {
     color: white;
     font-size: 22px;
     font-family: Futura lighter, "Trebuchet MS", Arial, sans-serif
+
+
+    .container {
+        max-width: 650px;
+        /* I put "max-width" rather than "width" because
+           if the screen width is less than 650px, it will shrink accordingly. */
+      }
+  
   }
