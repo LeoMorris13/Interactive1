@@ -9,5 +9,9 @@
   /* begin styles */
   
   body {
-    background-color: rgb(211, 233, 232);
+    background-color: rgb(101, 255, 247);
+    
+    color:black;
+    font-size: 15px;
+    font-family: Futura lighter, "Trebuchet MS", Arial, sans-serif
   }

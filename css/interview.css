@@ -1,11 +1,24 @@
 
 body {
-    background-color: rgb(230, 85, 49);
+    background-color:rgb(101, 255, 247);
     /* The above is called a hex code.
        There are two other ways to do colors in CSS: rgb and common names */
-    color: white;
+    color:black;
     font-size: 15px;
     font-family: Futura lighter, "Trebuchet MS", Arial, sans-serif
+ 
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+   }
 
-    
+h1 {
+    /* here I'm making the title not bold (by default headings are always bold)
+       centered, larger, tighter leading, and with some bottom space or margin */
+    font-weight: normal;
+    text-align: center;
+    font-size: 3em;
+    line-height: 1.1;
+    margin-bottom: 2em;
   }
