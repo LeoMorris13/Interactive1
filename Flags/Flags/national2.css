@@ -1,0 +1,97 @@
+/* reset styles */
+* {
+    margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+    background: black;
+}
+
+/* flag canvas */
+#canvas {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    background: white;
+}
+
+/* shapes */
+#square {
+    width: 500px;
+    height: 50px;
+    background: red;
+    position: relative;
+    top: 250px;
+    left: 0px;
+}
+
+#square2 {
+    width: 500px;
+    height: 50px;
+    background: yellow;
+    position: relative;
+    top: -50px;
+    left: 0px;
+}
+
+
+#circle1 {
+    width: 100px;
+    height: 100px;
+    background:black;
+    border-radius: 75px;
+    position: absolute;
+    top: 53px;
+    left: 200px;
+}
+
+#circle2 {
+    width: 100px;
+    height: 100px;
+    background:black;
+    border-radius: 75px;
+    position: absolute;
+    top: 148px;
+    left: 145px;
+}
+
+#circle3 {
+    width: 100px;
+    height: 100px;
+    background:black;
+    border-radius: 75px;
+    position: absolute;
+    top: 148px;
+    left: 255px;
+}
+
+#circle4 {
+    width: 75px;
+    height: 75px;
+    background: white;
+    border-radius: 75px;
+    position: absolute;
+    top: 65px;
+    left: 212.5px;
+}
+
+#circle5 {
+    width: 75px;
+    height: 75px;
+    background:white;
+    border-radius: 75px;
+    position: absolute;
+    top: 159px;
+    left: 158px;
+}
+
+#circle6 {
+    width: 75px;
+    height: 75px;
+    background:white;
+    border-radius: 75px;
+    position: absolute;
+    top: 159px;
+    left: 267px;
+}
