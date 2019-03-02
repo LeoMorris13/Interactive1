@@ -1,17 +1,44 @@
-
 /* reset styles */
 
 * {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  /* begin styles */
-  
-  body {
-    background-color: rgb(101, 255, 247);
-    
-    color:black;
-    font-size: 15px;
-    font-family: Futura lighter, "Trebuchet MS", Arial, sans-serif
-  }
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+body {
+  background-color: gold;
+  color: black;
+  font-size: 15px;
+  font-family: Futura lighter, "Trebuchet MS", Arial, sans-serif;
+  background-image: "Images/SmileyFace.jpg">
+}
+
+ul {
+  list-style: none;
+}
+
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+
+#container {
+  max-width: 650px;
+  margin-left: 200px;
+
+}
+
+h1 {
+  font-weight: normal;
+  text-align: left;
+  font-size: 4em;
+  line-height: 1.1;
+  margin-bottom: 2em;
+}

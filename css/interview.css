@@ -1,24 +1,55 @@
-
 body {
-    background-color:rgb(101, 255, 247);
-    /* The above is called a hex code.
-       There are two other ways to do colors in CSS: rgb and common names */
-    color:black;
-    font-size: 15px;
-    font-family: Futura lighter, "Trebuchet MS", Arial, sans-serif
- 
-  }
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-   }
+   background-color: gold;
+
+   color: black;
+   font-size: 15px;
+   font-family: 'Courier New', Courier, monospace
+}
+
+#container {
+   max-width: 400px;
+   margin-left: 200px;
+}
 
 h1 {
-    /* here I'm making the title not bold (by default headings are always bold)
+   /* here I'm making the title not bold (by default headings are always bold)
        centered, larger, tighter leading, and with some bottom space or margin */
-    font-weight: normal;
-    text-align: center;
-    font-size: 3em;
-    line-height: 1.1;
-    margin-bottom: 2em;
-  }
+   font-weight: bold;
+   text-align: left;
+   font-size: 4em;
+   line-height: 1.5;
+   margin-bottom: 1em;
+}
+
+h2 {
+   font-weight: bold;
+   text-align: left;
+   font-size: 3em;
+   line-height: 1.1;
+   margin-bottom: 1em;
+}
+
+p {
+   font-weight: normal;
+   text-align: left;
+   font-size: 1.3em;
+   line-height: 1.9;
+   margin-bottom: 1em;
+}
+
+ul {
+   list-style: none;
+}
+
+#TOC {
+   position: fixed;
+   top: 1em;
+   left: 1em;
+   background-color: red;
+   color: whitesmoke;
+   height: 140px;
+   width: 100px;
+   margin: 30px;
+   padding: 1em;
+   font-size: .85em;
+}

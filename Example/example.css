@@ -1,0 +1,39 @@
+body {
+  background-color: black
+}
+
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: gold;
+}
+
+
+.innershape {
+  width: 100px;
+  height: 100px;
+  background: red;
+  float: left;
+}
+
+.outershape {
+  width: 600px;
+  height: 600px;
+  background: white;
+
+}
+
+.outershape:hover>.innershape {
+  background: gold;
+}
+
+div:hover~div:nth-child(even) {
+  background: black;
+}
+
+.outershape:hover .outershape:nth-child(even) {
+  background
+}
