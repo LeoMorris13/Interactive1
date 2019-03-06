@@ -11,8 +11,8 @@ body {
   background-color: gold;
   color: black;
   font-size: 15px;
-  font-family: Futura lighter, "Trebuchet MS", Arial, sans-serif;
-  background-image: "Images/SmileyFace.jpg">
+  font-family: 'Courier New', Courier, monospace;
+
 }
 
 ul {
@@ -30,15 +30,57 @@ a:hover {
 
 
 #container {
-  max-width: 650px;
-  margin-left: 200px;
+  max-width: 500px;
+  margin-left: 500px;
 
 }
 
 h1 {
-  font-weight: normal;
+  font-weight: bold;
   text-align: left;
   font-size: 4em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  font-family: 'Courier New', Courier, monospace
+}
+
+h3 {
+  font-weight: bold;
+  text-align: left;
+  font-size: 3em;
   line-height: 1.1;
+
+}
+
+p {
+  font-weight: normal;
+  text-align: left;
+  font-size: 1.3em;
+  line-height: 1.9;
   margin-bottom: 2em;
+}
+
+#block {
+  position: fixed;
+  top: -10em;
+  left: -3em;
+  background-color: red;
+
+  height: 3000px;
+  width: 100px;
+  margin: 30px;
+  padding: 1em;
+
+}
+
+#block2 {
+  position: fixed;
+  top: -10em;
+  left: 85em;
+  background-color: red;
+  height: 5000px;
+  width: 100px;
+  margin: 30px;
+  padding: 1em;
+
 }

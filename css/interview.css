@@ -7,13 +7,11 @@ body {
 }
 
 #container {
-   max-width: 400px;
-   margin-left: 200px;
+   max-width: 500px;
+   margin-left: 550px;
 }
 
 h1 {
-   /* here I'm making the title not bold (by default headings are always bold)
-       centered, larger, tighter leading, and with some bottom space or margin */
    font-weight: bold;
    text-align: left;
    font-size: 4em;
