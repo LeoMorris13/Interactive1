@@ -1,5 +1,7 @@
 body {
     background-color: white;
+    background-image: url("../../Images/Water.jpg");
+    background-size: cover;
 
 
 }
@@ -8,15 +10,29 @@ body {
 #sock {
     width: 230px;
     height: 430px;
-    margin-left: 380px;
+    margin-left: 800px;
     margin-top: 200px;
     background-color: aqua;
-    border-radius: 15px;
+    border-radius: 45px;
     opacity: 1;
     animation-name: d;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    transform: rotate(20deg)
+}
 
+#sock2 {
+    width: 230px;
+    height: 430px;
+    margin-left: 200px;
+    margin-top: -700px;
+    background-color: aqua;
+    border-radius: 75px;
+    opacity: 1;
+    animation-name: f;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform: rotate(-20deg)
 }
 
 @keyframes d {
@@ -25,30 +41,68 @@ body {
     0% {
         width: 200px;
         height: 400px;
-        margin-left: 400px;
+
         background-color: aquamarine;
         margin-top: 200px;
-        border-radius: 30px;
+
 
     }
 
     50% {
         width: 230px;
         height: 430px;
-        margin-left: 380px;
+
         margin-top: 200px;
-        background-color: lightblue;
-        border-radius: 15px;
+        background-color: rgb(219, 49, 235);
+
 
     }
 
     100% {
         width: 200px;
         height: 400px;
-        margin-left: 400px;
+
         background-color: aquamarine;
         margin-top: 200px;
-        border-radius: 30px;
+
+
+
+    }
+
+
+
+}
+
+@keyframes f {
+
+
+    0% {
+        width: 200px;
+        height: 400px;
+
+        background-color: aquamarine;
+        margin-top: 200px;
+
+
+    }
+
+    50% {
+        width: 230px;
+        height: 430px;
+
+        margin-top: 200px;
+        background-color: lightblue;
+
+
+    }
+
+    100% {
+        width: 200px;
+        height: 400px;
+
+        background-color: aquamarine;
+        margin-top: 200px;
+
 
 
     }
