@@ -3,8 +3,9 @@ body {
     overflow-y: hidden;
 }
 
+/*
 .grid-container {
-    width: 10000px;
+    width: 5500px;
     height: 30px;
     background: white;
     border: 4px solid black;
@@ -14,32 +15,12 @@ body {
     top: 100px;
     left: 30px;
 
-}
+}*/
 
-/* the old one */
-/* .grid-container {
-    display: grid;
-    grid-template-columns: repeat(7, 800px);
-    border-top: 2px solid;
-    grid-template-rows: 200px 300px 200px;
-    width: 7000px;
-    position: absolute;
-    top: 100px;
-} */
-
-/* .grid-container2 {
-    display: grid;
-    grid-template-columns: repeat(7, 800px);
-    border-top: 2px solid;
-    grid-template-rows: 200px 300px 200px;
-    width: 7000px;
-    position: absolute;
-    top: 130px;
-} */
 
 .scroll {
     background-color: transparent;
-    width: 9000px;
+    width: 5800px;
     height: 700px;
     position: relative;
     top: 135px;
@@ -49,71 +30,235 @@ body {
 
 }
 
+#MOLI2 img {
+    width: 600px;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+}
+
 #MOLI img {
     width: 600px;
     height: auto;
+    position: fixed;
 
 }
 
-#MOLI {
+
+
+#MOLI:hover a {
+    opacity: 0;
+}
+
+#ABOUT:hover a {
+    color: red;
+}
+
+#ABOUT a {
     position: fixed;
+    font-family: avenir;
+    font: bolder;
+    top: 87px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 #AIM img {
-    width: 500px;
+    width: 300px;
     height: auto;
     position: relative;
-    top: 100px;
+    top: 200px;
+    left: 145px;
+}
+
+#AIM .name {
+    position: absolute;
+    top: 475px;
+    left: 250px;
+    font-family: gotham;
+}
+
+#AIM .description {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    font-family: avenir;
+    text-align: center;
 }
 
 #Limewire img {
-    width: 600px;
+    width: 300px;
     height: auto;
     position: absolute;
-    top: 75px;
-    left: 1000px;
+    top: 220px;
+    left: 900px;
+}
+
+#Limewire .name {
+    position: absolute;
+    top: 475px;
+    left: 983px;
+    font-family: gotham;
+
+}
+
+#Limewire .description {
+    position: absolute;
+    top: 550px;
+    left: 770px;
+    font-family: avenir;
+    text-align: center;
 }
 
 #Myspace img {
-    width: 500px;
+    width: 250px;
     height: auto;
     position: absolute;
-    top: 130px;
-    left: 2100px;
+    top: 240px;
+    left: 1700px;
+}
+
+#Myspace .name {
+    position: absolute;
+    top: 475px;
+    left: 1760px;
+    font-family: gotham;
+}
+
+#Myspace .description {
+    position: absolute;
+    top: 550px;
+    left: 1550px;
+    font-family: avenir;
+    text-align: center;
 }
 
 #IE img {
-    width: 500px;
+    width: 250px;
     height: auto;
     position: absolute;
-    top: 130px;
-    left: 3100px;
+    top: 245px;
+    left: 2475px;
+
+}
+
+#IE .name {
+    position: absolute;
+    top: 475px;
+    left: 2500px;
+    font-family: gotham;
+}
+
+#IE .description {
+    position: absolute;
+    top: 550px;
+    left: 2460px;
+    font-family: avenir;
+    text-align: center;
 }
 
 #AG img {
-    width: 800px;
+    width: 400px;
     height: auto;
     position: absolute;
-    top: 200px;
-    left: 4000px;
+    top: 290px;
+    left: 3280px;
+}
+
+#AG .name {
+    position: absolute;
+    top: 475px;
+    left: 3350px;
+    font-family: gotham;
+}
+
+#AG .description {
+    position: absolute;
+    top: 550px;
+    left: 3340px;
+    font-family: avenir;
+    text-align: center;
 }
 
 #YT img {
-    width: 800px;
+    width: 400px;
     height: auto;
     position: absolute;
-    top: 100px;
-    left: 5200px;
+    top: 260px;
+    left: 4100px;
+}
+
+#YT .name {
+    position: absolute;
+    top: 475px;
+    left: 4240px;
+    font-family: gotham;
+}
+
+#YT .description {
+    position: absolute;
+    top: 550px;
+    left: 4080px;
+    font-family: avenir;
+    text-align: center;
 }
 
 #Albino img {
-    width: 500px;
+    width: 250px;
     height: auto;
     position: absolute;
-    top: 120px;
-    left: 6700px;
+    top: 233px;
+    left: 5000px;
+}
+
+#Albino .name {
+    position: absolute;
+    top: 475px;
+    left: 5000px;
+    font-family: gotham;
+}
+
+#Albino .description {
+    position: absolute;
+    top: 550px;
+    left: 4980px;
+    font-family: avenir;
+    text-align: center;
 }
 
 .link-1 {
     Top: 300px;
+}
+
+.name {
+    visibility: hidden;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.description {
+    visibility: hidden;
+    font-size: 1em;
+}
+
+.icon:hover~.name {
+    visibility: visible;
+
+}
+
+.icon:hover~.description {
+    visibility: visible;
+
 }

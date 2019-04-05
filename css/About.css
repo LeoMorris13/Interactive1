@@ -1,0 +1,55 @@
+body {
+    background: white;
+
+}
+
+#MOLI2 img {
+    width: 600px;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+}
+
+#MOLI img {
+    width: 600px;
+    height: auto;
+
+
+}
+
+#MOLI:hover a {
+    opacity: 0;
+}
+
+
+
+#MOLI {
+    position: fixed;
+}
+
+#About a {
+    top: 200px;
+    position: relative;
+    left: 10px;
+    height: 500px;
+
+
+}
+
+#About .name {
+    top: 110px;
+    position: relative;
+    left: 20px;
+
+}
+
+.name {
+    font-family: avenir;
+    font-size: 1.1em;
+    text-align: left;
+    width: 545px;
+    line-height: 25px;
+
+
+
+}
