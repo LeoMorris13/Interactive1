@@ -1,0 +1,30 @@
+body {
+    background: white;
+    overflow-y: hidden;
+}
+
+#MOLI2 img {
+    width: 600px;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+}
+
+#MOLI img {
+    width: 600px;
+    height: auto;
+    position: fixed;
+
+}
+
+
+
+#MOLI:hover a {
+    opacity: 0;
+}
+
+#loading img {
+    top: 350px;
+    left: 500px;
+    position: relative;
+}

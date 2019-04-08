@@ -98,6 +98,11 @@ a:active {
     text-align: center;
 }
 
+#AIM img:hover a {
+    width: 700px;
+    height: auto;
+}
+
 #Limewire img {
     width: 300px;
     height: auto;
@@ -246,11 +251,13 @@ a:active {
     visibility: hidden;
     font-size: 2em;
     font-weight: bold;
+
 }
 
 .description {
     visibility: hidden;
     font-size: 1em;
+    font-style: italic;
 }
 
 .icon:hover~.name {
@@ -261,4 +268,8 @@ a:active {
 .icon:hover~.description {
     visibility: visible;
 
+}
+
+.icon:hover~img {
+    width: 150%;
 }
