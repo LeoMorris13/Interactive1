@@ -1,0 +1,31 @@
+body {
+    background: white;
+    overflow-y: hidden;
+}
+
+#limewire img {
+    top: 100px;
+    left: 150px;
+    width: 1000px;
+    height: auto;
+    position: relative;
+
+}
+
+#MOLI2 img {
+    width: 600px;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+}
+
+#MOLI img {
+    width: 600px;
+    height: auto;
+    position: fixed;
+
+}
+
+#MOLI:hover a {
+    opacity: 0;
+}
