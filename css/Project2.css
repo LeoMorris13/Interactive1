@@ -1,0 +1,2716 @@
+body {
+    background: white;
+    /* overflow-y: hidden; */
+}
+
+
+
+#ShardS {
+    top: 128px;
+    left: 210px;
+    position: relative;
+    transform: scale(3)
+}
+
+#ShardH {
+    top: 8px;
+    left: 400px;
+    position: relative;
+    transform: scale(3)
+}
+
+#S21 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S22 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#S23 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S24 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S25 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S26 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S27 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S28 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S29 {
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#S210 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+
+#H21 {
+    top: -12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H22 {
+    top: 28px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#H23 {
+    top: 88px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#H24 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H25 {
+    top: 8px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H26 {
+    top: 48px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#H27 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#type {
+    top: 800px;
+    left: 200px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+#Acontainer {
+    top: 300px;
+    left: 200px;
+    position: relative;
+
+}
+
+
+#Bcontainer {
+    top: 320px;
+    left: 290px;
+    position: relative;
+    color: red;
+}
+
+#Ccontainer {
+    top: 308px;
+    left: 410px;
+    position: relative;
+}
+
+#Dcontainer {
+    top: 320px;
+    left: 500px;
+    position: relative;
+}
+
+#Econtainer {
+    top: 320px;
+    left: 630px;
+    position: relative;
+}
+
+#Fcontainer {
+    top: 320px;
+    left: 740px;
+    position: relative;
+}
+
+#Gcontainer {
+    top: 308px;
+    left: 830px;
+    position: relative;
+}
+
+#Hcontainer {
+    top: 320px;
+    left: 930px;
+    position: relative;
+}
+
+#Icontainer {
+    top: 460px;
+    left: 200px;
+    position: relative;
+}
+
+#Jcontainer {
+    top: 460px;
+    left: 280px;
+    position: relative;
+}
+
+#Kcontainer {
+    top: 440px;
+    left: 400px;
+    position: relative;
+}
+
+#Lcontainer {
+    top: 440px;
+    left: 520px;
+    position: relative;
+}
+
+#Mcontainer {
+    top: 440px;
+    left: 620px;
+    position: relative;
+}
+
+#Ncontainer {
+    top: 440px;
+    left: 750px;
+    position: relative;
+}
+
+#Ocontainer {
+    top: 440px;
+    left: 850px;
+    position: relative;
+}
+
+#Pcontainer {
+    top: 440px;
+    left: 960px;
+    position: relative;
+}
+
+#Qcontainer {
+    top: 590px;
+    left: 190px;
+    position: relative;
+}
+
+#Rcontainer {
+    top: 590px;
+    left: 290px;
+    position: relative;
+}
+
+#Scontainer {
+    top: 590px;
+    left: 400px;
+    position: relative;
+}
+
+#Tcontainer {
+    top: 590px;
+    left: 490px;
+    position: relative;
+}
+
+#Ucontainer {
+    top: 570px;
+    left: 600px;
+    position: relative;
+}
+
+#Vcontainer {
+    top: 590px;
+    left: 730px;
+    position: relative;
+}
+
+#Wcontainer {
+    top: 570px;
+    left: 790px;
+    position: relative;
+}
+
+#A1 {
+    top: -150px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 0;
+}
+
+#Acontainer #A1 {
+    animation: showA1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Acontainer:active #A1,
+#Acontainer:focus #A1,
+#Acontainer:hover #A1 {
+    animation-play-state: running;
+}
+
+@keyframes showA1 {
+    from {
+        top: -150px;
+        opacity: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+    }
+
+    to {
+        top: 8px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+    }
+}
+
+#A2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+#Acontainer #A2 {
+    animation: showA2 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Acontainer:active #A2,
+#Acontainer:focus #A2,
+#Acontainer:hover #A2 {
+    animation-play-state: running;
+}
+
+@keyframes showA2 {
+    from {
+        left: -150px;
+        opacity: 0;
+        width: 2px;
+        height: 0px;
+    }
+
+    to {
+        left: 8px;
+        opacity: 1;
+        width: 20px;
+        height: 80px;
+    }
+}
+
+#A3 {
+    position: absolute;
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+}
+
+#Acontainer #A3 {
+    animation: showA3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Acontainer:active #A3,
+#Acontainer:focus #A3,
+#Acontainer:hover #A3 {
+    animation-play-state: running;
+}
+
+@keyframes showA3 {
+    from {
+        top: 150px;
+        opacity: 0;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid red;
+        border-right: 80px solid transparent;
+    }
+
+    to {
+        top: 48px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+    }
+}
+
+#A4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+
+}
+
+#Acontainer #A4 {
+    animation: showA4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Acontainer:active #A4,
+#Acontainer:focus #A4,
+#Acontainer:hover #A4 {
+    animation-play-state: running;
+}
+
+@keyframes showA4 {
+    from {
+        left: 158px;
+        opacity: 0;
+        border-top: 4px solid transparent;
+        border-bottom: 4x solid red;
+        border-right: 4px solid transparent;
+
+    }
+
+    to {
+        left: 28px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+    }
+}
+
+#A5 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#A6 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+
+}
+
+#A7 {
+    position: absolute;
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+}
+
+#B1 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#Bcontainer #B1 {
+    animation: showB1 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Bcontainer:active #B1,
+#Bcontainer:focus #B1,
+#Bcontainer:hover #B1 {
+    animation-play-state: running;
+}
+
+@keyframes showB1 {
+    from {
+        top: -150px;
+        left: -150px;
+        opacity: 0;
+
+        border-top: 120px solid transparent;
+        border-bottom: 120px solid red;
+        border-right: 120px solid transparent;
+    }
+
+    to {
+        top: 68px;
+        left: 8px;
+        opacity: 1;
+
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+    }
+}
+
+#B2 {
+    top: 28px;
+    left: 28px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+
+}
+
+#Bcontainer #B2 {
+    animation: showB2 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Bcontainer:active #B2,
+#Bcontainer:focus #B2,
+#Bcontainer:hover #B2 {
+    animation-play-state: running;
+}
+
+@keyframes showB2 {
+    from {
+        top: 200px;
+        opacity: 0;
+        width: 100px;
+        height: auto;
+    }
+
+    to {
+        top: 28px;
+        opacity: 1;
+        width: 20px;
+        height: autopx;
+    }
+}
+
+#B3 {
+    top: -12px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#Bcontainer #B3 {
+    animation: showB3 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Bcontainer:active #B3,
+#Bcontainer:focus #B3,
+#Bcontainer:hover #B3 {
+    animation-play-state: running;
+}
+
+@keyframes showB3 {
+    from {
+        top: -150px;
+        opacity: 0;
+        border-top: 2px solid transparent;
+        border-bottom: 2px solid red;
+        border-right: 2px solid transparent;
+
+    }
+
+    to {
+        top: -12px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+    }
+}
+
+#B4 {
+    top: -12px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+}
+
+#B5 {
+    top: 48px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    transform: scalex(-1)
+}
+
+#B6 {
+    top: 88px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#B7 {
+    top: 8px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+}
+
+#B8 {
+    top: 48px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+}
+
+#B9 {
+    top: 48px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+
+}
+
+#Bcontainer #B9 {
+    animation: showB9 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Bcontainer:active #B9,
+#Bcontainer:focus #B9,
+#Bcontainer:hover #B9 {
+    animation-play-state: running;
+}
+
+@keyframes showB9 {
+    from {
+        left: 150px;
+        opacity: 0;
+        border-top: 200px solid transparent;
+        border-bottom: 200px solid red;
+        border-right: 200px solid transparent;
+
+    }
+
+    to {
+        left: 68px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+    }
+}
+
+
+
+#B10 {
+    top: 88px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+}
+
+#C1 {
+    top: 0px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#Ccontainer #C1 {
+    animation: showC1 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ccontainer:active #C1,
+#Ccontainer:focus #C1,
+#Ccontainer:hover #C1 {
+    animation-play-state: running;
+}
+
+@keyframes showC1 {
+    from {
+        top: -150px;
+        opacity: 0;
+
+
+    }
+
+    to {
+        top: 0px;
+        opacity: 1;
+
+    }
+}
+
+#C2 {
+    top: 40px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+
+
+}
+
+#C3 {
+    top: 100px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+
+
+#C4 {
+    top: 0px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#Ccontainer #C4 {
+    animation: showC4 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ccontainer:active #C4,
+#Ccontainer:focus #C4,
+#Ccontainer:hover #C4 {
+    animation-play-state: running;
+}
+
+@keyframes showC4 {
+    from {
+        left: 100px;
+        opacity: 0;
+
+
+    }
+
+    to {
+        left: 28px;
+        opacity: 1;
+
+    }
+}
+
+#C5 {
+    top: 100px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+
+}
+
+#Ccontainer #C5 {
+    animation: showC5 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ccontainer:active #C5,
+#Ccontainer:focus #C5,
+#Ccontainer:hover #C5 {
+    animation-play-state: running;
+}
+
+@keyframes showC5 {
+    from {
+        top: 200px;
+        opacity: 0;
+        width: 80px;
+        height: 80px;
+
+    }
+
+    to {
+        top: 100px;
+        opacity: 1;
+        width: 20px;
+        height: 20px;
+
+    }
+}
+
+#C6 {
+    top: 20px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#C7 {
+    top: 60px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#C8 {
+    top: 100px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scaley(-1);
+    position: absolute;
+
+}
+
+#D1 {
+
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+
+}
+
+#D2 {
+
+    top: 28px;
+    left: 28px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+
+
+}
+
+#D3 {
+    top: -12px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#D4 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    transform: scalex(-1)
+}
+
+#D5 {
+    top: 88px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#D6 {
+    top: 8px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#D7 {
+    top: 48px;
+    left: 68px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#D8 {
+    top: 88px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scaley(-1);
+    position: absolute;
+}
+
+#E1 {
+    top: -12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#E2 {
+    top: 28px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+
+#E3 {
+    top: 88px;
+    left: 8px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+
+
+}
+
+#E4 {
+    top: 48px;
+    left: 28px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+#E5 {
+    top: 68px;
+    left: 28px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scaleX(1);
+    position: absolute;
+}
+
+#E6 {
+    top: 28px;
+    left: 48px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+#E7 {
+    top: 68px;
+    left: 48px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+#F1 {
+    top: -12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#F2 {
+    top: 28px;
+    left: 8px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+#F3 {
+    top: 108px;
+    left: 8px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(1);
+    position: absolute;
+}
+
+#F4 {
+    top: 48px;
+    left: 28px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+
+}
+
+#F5 {
+    top: 28px;
+    left: 48px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+#G1 {
+    top: 0px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#G2 {
+    top: 40px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+
+
+}
+
+#G3 {
+    top: 100px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#G4 {
+    top: 0px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#G5 {
+    top: 100px;
+    left: 28px;
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+
+}
+
+#G6 {
+    top: 80px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#G7 {
+    top: 20px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#G8 {
+    top: 60px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#G9 {
+    top: 120px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#H1 {
+    top: -12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H2 {
+    top: 28px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#H3 {
+    top: 88px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#H4 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H5 {
+    top: 8px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H6 {
+    top: 48px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#H7 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#I1 {
+    top: -12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#I2 {
+    top: 28px;
+    left: 8px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+#I3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#I4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#J1 {
+    top: 48px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#J2 {
+    top: 68px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#J3 {
+
+    top: -12px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#J4 {
+    top: 28px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#J5 {
+
+    top: 88px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+
+#K1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#K2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#K3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#K4 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#K5 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#K6 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#K7 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#K8 {
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#K9 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#K10 {
+    top: 128px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#L1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#L2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#L3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#L4 {
+    top: 88px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#M1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#M2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#M3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#M4 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#M5 {
+    top: 68px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#M6 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#M7 {
+    width: 20px;
+    height: 60px;
+    top: 68px;
+    left: 68px;
+    background-color: red;
+    position: absolute;
+}
+
+#M8 {
+    top: 28px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+
+#M9 {
+    top: 128px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#N1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#N2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#N3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#N4 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#N5 {
+    top: 68px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#N6 {
+    top: 68px;
+    left: 48px;
+    height: 60px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#N7 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#O1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#O2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#O3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#O4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#O5 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#O6 {
+    top: 108px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#O7 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#O8 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#O9 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#P1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#P2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+#P3 {
+    top: 128px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#P4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#P5 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#P6 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#P7 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Q1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Q2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#Q3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Q4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Q5 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Q6 {
+    top: 108px;
+    left: 28px;
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Q7 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Q8 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#Q9 {
+    top: 88px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#R1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#R2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#R3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#R4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#R5 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#R6 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#R7 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#R8 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#R9 {
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#R10 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#R11 {
+    top: 128px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#S1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#S3 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S5 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S6 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S7 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S8 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S9 {
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#S10 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#T1 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#T2 {
+    top: 8px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#T3 {
+    top: 48px;
+    left: 48px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+#T4 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#T5 {
+    top: 48px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#U1 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#U2 {
+    top: 68px;
+    left: 28px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#U3 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#U4 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#U5 {
+
+    top: 48px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#U6 {
+    top: 88px;
+    left: 68px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#U7 {
+    top: 148px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#V1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#V2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#V3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#V4 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#V5 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#V6 {
+    top: 88px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#V7 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#W1 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#W2 {
+    top: 68px;
+    left: 28px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#W3 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#W4 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#W5 {
+
+    top: 48px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#W6 {
+    top: 88px;
+    left: 68px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+
+#W7 {
+    top: 148px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#W8 {
+    top: 128px;
+    left: 88px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#W9 {
+    top: 68px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#W10 {
+    top: 68px;
+    left: 108px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#W11 {
+    top: 108px;
+    left: 108px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#W12 {
+    top: 148px;
+    left: 108px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}

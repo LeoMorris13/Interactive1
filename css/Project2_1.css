@@ -1,0 +1,9221 @@
+body {
+    background: white;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+}
+
+#shard {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+#ShardS {
+    position: absolute;
+    top: 128px;
+    left: 210px;
+    transform: scale(3)
+}
+
+#ShardH {
+    top: 68px;
+    left: 390px;
+    position: absolute;
+    transform: scale(3)
+}
+
+#ShardA {
+    top: 308px;
+    left: 570px;
+    position: absolute;
+    transform: scale(3)
+}
+
+#ShardR {
+    top: 188px;
+    left: 750px;
+    position: absolute;
+    transform: scale(3)
+}
+
+#ShardD {
+    top: 248px;
+    left: 990px;
+    position: absolute;
+    transform: scale(3)
+}
+
+#ShardS2 {
+    top: 369px;
+    left: 1230px;
+    position: absolute;
+    transform: scale(3)
+}
+
+#S31 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S32 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#S33 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S34 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S35 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S36 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S37 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S38 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S39 {
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#S310 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#S21 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S22 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#S23 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S24 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S25 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S26 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S27 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S28 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S29 {
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#S210 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+
+#H21 {
+    top: -12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H22 {
+    top: 28px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#H23 {
+    top: 88px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#H24 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H25 {
+    top: 8px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H26 {
+    top: 48px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#H27 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#A21 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+
+
+#A22 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+
+
+
+
+#A23 {
+    position: absolute;
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+}
+
+
+
+
+#A24 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+
+}
+
+
+
+
+
+#A25 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#A26 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+
+}
+
+#A27 {
+    position: absolute;
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+}
+
+#R21 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#R22 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#R23 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#R24 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#R25 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#R26 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#R27 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#R28 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#R29 {
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#R210 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#R211 {
+    top: 128px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#D21 {
+
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+
+}
+
+#D22 {
+
+    top: 28px;
+    left: 28px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+
+
+}
+
+#D23 {
+    top: -12px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#D24 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    transform: scalex(-1)
+}
+
+#D25 {
+    top: 88px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#D26 {
+    top: 8px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#D27 {
+    top: 48px;
+    left: 68px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#D28 {
+    top: 88px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scaley(-1);
+    position: absolute;
+}
+
+#middle {
+    top: 900px;
+}
+
+
+
+#description {
+    position: relative;
+    top: 1700px;
+    left: 570px;
+    text-align: center;
+    font-family: din-2014, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+    width: 400px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    font-size: 107%;
+    text-align: left;
+}
+
+#type {
+    top: 2000px;
+    left: 210px;
+    position: relative;
+    transform: scale(1.35);
+    margin-bottom: 4500px;
+
+}
+
+#Acontainer {
+    top: 300px;
+    left: 200px;
+    position: relative;
+
+}
+
+
+#Bcontainer {
+    top: 320px;
+    left: 320px;
+    position: relative;
+    color: red;
+}
+
+#Ccontainer {
+    top: 308px;
+    left: 460px;
+    position: relative;
+}
+
+#Dcontainer {
+    top: 320px;
+    left: 570px;
+    position: relative;
+}
+
+#Econtainer {
+    top: 320px;
+    left: 710px;
+    position: relative;
+}
+
+#Fcontainer {
+    top: 320px;
+    left: 830px;
+    position: relative;
+}
+
+#Gcontainer {
+    top: 308px;
+    left: 940px;
+    position: relative;
+}
+
+#Hcontainer {
+    top: 320px;
+    left: 1060px;
+    position: relative;
+}
+
+#Icontainer {
+    top: 500px;
+    left: 230px;
+    position: relative;
+}
+
+#Jcontainer {
+    top: 500px;
+    left: 320px;
+    position: relative;
+}
+
+#Kcontainer {
+    top: 480px;
+    left: 460px;
+    position: relative;
+}
+
+#Lcontainer {
+    top: 480px;
+    left: 590px;
+    position: relative;
+}
+
+#Mcontainer {
+    top: 480px;
+    left: 690px;
+    position: relative;
+}
+
+#Ncontainer {
+    top: 480px;
+    left: 830px;
+    position: relative;
+}
+
+#Ocontainer {
+    top: 480px;
+    left: 950px;
+    position: relative;
+}
+
+#Pcontainer {
+    top: 480px;
+    left: 1080px;
+    position: relative;
+}
+
+#Qcontainer {
+    top: 660px;
+    left: 195px;
+    position: relative;
+}
+
+#Rcontainer {
+    top: 660px;
+    left: 320px;
+    position: relative;
+}
+
+#Scontainer {
+    top: 660px;
+    left: 460px;
+    position: relative;
+}
+
+#Tcontainer {
+    top: 660px;
+    left: 560px;
+    position: relative;
+}
+
+#Ucontainer {
+    top: 640px;
+    left: 690px;
+    position: relative;
+}
+
+#Vcontainer {
+    top: 660px;
+    left: 830px;
+    position: relative;
+}
+
+#Wcontainer {
+    top: 640px;
+    left: 930px;
+    position: relative;
+}
+
+#Xcontainer {
+    top: 660px;
+    left: 1090px;
+    position: relative;
+}
+
+#Ycontainer {
+    top: 830px;
+    left: 590px;
+    position: relative;
+}
+
+#Zcontainer {
+    top: 830px;
+    left: 720px;
+    position: relative;
+}
+
+#Zerocontainer {
+    top: 1020px;
+    left: 190px;
+    position: relative;
+}
+
+#Onecontainer {
+    top: 1020px;
+    left: 290px;
+    position: relative;
+}
+
+#Twocontainer {
+    top: 1020px;
+    left: 390px;
+    position: relative;
+}
+
+#Threecontainer {
+    top: 1020px;
+    left: 510px;
+    position: relative;
+}
+
+#Fourcontainer {
+    top: 1020px;
+    left: 610px;
+    position: relative;
+}
+
+#Fivecontainer {
+    top: 1020px;
+    left: 720px;
+    position: relative;
+}
+
+#Sixcontainer {
+    top: 1020px;
+    left: 830px;
+    position: relative;
+}
+
+#Sevencontainer {
+    top: 1020px;
+    left: 920px;
+    position: relative;
+}
+
+#Eightcontainer {
+    top: 1020px;
+    left: 1020px;
+    position: relative;
+}
+
+#Ninecontainer {
+    top: 1020px;
+    left: 1120px;
+    position: relative;
+}
+
+#Exlacontainer {
+    top: 1200px;
+    left: 630px;
+    position: relative;
+}
+
+#Quescontainer {
+    top: 1200px;
+    left: 720px;
+    position: relative;
+}
+
+#A1 {
+    top: -150px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 0;
+}
+
+#Acontainer #A1 {
+    animation: showA1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Acontainer:active #A1,
+#Acontainer:focus #A1,
+#Acontainer:hover #A1 {
+    animation-play-state: running;
+}
+
+@keyframes showA1 {
+    from {
+        top: -150px;
+        opacity: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+    }
+
+    to {
+        top: 8px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+    }
+}
+
+#A2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+#Acontainer #A2 {
+    animation: showA2 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Acontainer:active #A2,
+#Acontainer:focus #A2,
+#Acontainer:hover #A2 {
+    animation-play-state: running;
+}
+
+@keyframes showA2 {
+    from {
+        left: -150px;
+        opacity: 0;
+        width: 2px;
+        height: 0px;
+    }
+
+    to {
+        left: 8px;
+        opacity: 1;
+        width: 20px;
+        height: 80px;
+    }
+}
+
+#A3 {
+    position: absolute;
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+}
+
+#Acontainer #A3 {
+    animation: showA3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Acontainer:active #A3,
+#Acontainer:focus #A3,
+#Acontainer:hover #A3 {
+    animation-play-state: running;
+}
+
+@keyframes showA3 {
+    from {
+        top: 150px;
+        opacity: 0;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid red;
+        border-right: 80px solid transparent;
+    }
+
+    to {
+        top: 48px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+    }
+}
+
+#A4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+
+}
+
+#Acontainer #A4 {
+    animation: showA4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Acontainer:active #A4,
+#Acontainer:focus #A4,
+#Acontainer:hover #A4 {
+    animation-play-state: running;
+}
+
+@keyframes showA4 {
+    from {
+        left: 158px;
+        opacity: 0;
+        border-top: 4px solid transparent;
+        border-bottom: 4x solid red;
+        border-right: 4px solid transparent;
+
+    }
+
+    to {
+        left: 28px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+    }
+}
+
+#A5 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#A6 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+
+}
+
+#A7 {
+    position: absolute;
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+}
+
+#B1 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+
+#B2 {
+    top: 28px;
+    left: 28px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+
+}
+
+
+
+#B3 {
+    top: -12px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+
+
+#B4 {
+    top: -12px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+}
+
+#Bcontainer #B4 {
+    animation: showB4 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Bcontainer:active #B4,
+#Bcontainer:focus #B4,
+#Bcontainer:hover #B4 {
+    animation-play-state: running;
+}
+
+@keyframes showB4 {
+    from {
+        top: -112px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid red;
+        border-right: 40px solid transparent;
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+        top: -12px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+
+#B5 {
+    top: 48px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    transform: scalex(-1)
+}
+
+#Bcontainer #B5 {
+    animation: showB5 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Bcontainer:active #B5,
+#Bcontainer:focus #B5,
+#Bcontainer:hover #B5 {
+    animation-play-state: running;
+}
+
+@keyframes showB5 {
+    from {
+        top: 48px;
+        left: 148px;
+        width: 0;
+        height: 0;
+        border-top: 50px solid red;
+        border-bottom: 50px solid transparent;
+        border-right: 50px solid transparent;
+        position: absolute;
+        transform: scalex(-1);
+        opacity: 0;
+    }
+
+    to {
+        top: 48px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        transform: scalex(-1);
+        opacity: 1;
+    }
+}
+
+#B6 {
+    top: 88px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Bcontainer #B6 {
+    animation: showB6 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Bcontainer:active #B6,
+#Bcontainer:focus #B6,
+#Bcontainer:hover #B6 {
+    animation-play-state: running;
+}
+
+@keyframes showB6 {
+    from {
+        top: 188px;
+        left: 48px;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+        top: 88px;
+        left: 48px;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#B7 {
+    top: 8px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+}
+
+#Bcontainer #B7 {
+    animation: showB7 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Bcontainer:active #B7,
+#Bcontainer:focus #B7,
+#Bcontainer:hover #B7 {
+    animation-play-state: running;
+}
+
+@keyframes showB7 {
+    from {
+        top: 8px;
+        left: 168px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+        top: 8px;
+        left: 68px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#B8 {
+    top: 48px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+}
+
+#Bcontainer #B8 {
+    animation: showB8 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Bcontainer:active #B8,
+#Bcontainer:focus #B8,
+#Bcontainer:hover #B8 {
+    animation-play-state: running;
+}
+
+@keyframes showB8 {
+    from {
+        top: 48px;
+        left: 268px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+        top: 48px;
+        left: 68px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#B9 {
+    top: 48px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    position: absolute;
+
+}
+
+
+
+#Bcontainer #B9 {
+    animation: showB9 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Bcontainer:active #B9,
+#Bcontainer:focus #B9,
+#Bcontainer:hover #B9 {
+    animation-play-state: running;
+}
+
+@keyframes showB9 {
+    from {
+        left: 150px;
+        opacity: 0;
+        border-top: 200px solid transparent;
+        border-bottom: 200px solid red;
+        border-right: 200px solid transparent;
+
+    }
+
+    to {
+        left: 68px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+    }
+}
+
+
+
+#B10 {
+    top: 88px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+}
+
+#Bcontainer #B10 {
+    animation: showB10 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Bcontainer:active #B10,
+#Bcontainer:focus #B10,
+#Bcontainer:hover #B10 {
+    animation-play-state: running;
+}
+
+@keyframes showB10 {
+    from {
+        top: 288px;
+        left: 68px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        opacity: 0;
+
+    }
+
+    to {
+        top: 88px;
+        left: 68px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#C1 {
+    top: 0px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#Ccontainer #C1 {
+    animation: showC1 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ccontainer:active #C1,
+#Ccontainer:focus #C1,
+#Ccontainer:hover #C1 {
+    animation-play-state: running;
+}
+
+@keyframes showC1 {
+    from {
+        top: -150px;
+        opacity: 0;
+
+
+    }
+
+    to {
+        top: 0px;
+        opacity: 1;
+
+    }
+}
+
+#C2 {
+    top: 40px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+
+
+}
+
+#C3 {
+    top: 100px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+
+
+#C4 {
+    top: 0px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#Ccontainer #C4 {
+    animation: showC4 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ccontainer:active #C4,
+#Ccontainer:focus #C4,
+#Ccontainer:hover #C4 {
+    animation-play-state: running;
+}
+
+@keyframes showC4 {
+    from {
+        left: 100px;
+        opacity: 0;
+
+
+    }
+
+    to {
+        left: 28px;
+        opacity: 1;
+
+    }
+}
+
+#C5 {
+    top: 100px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+
+}
+
+#Ccontainer #C5 {
+    animation: showC5 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ccontainer:active #C5,
+#Ccontainer:focus #C5,
+#Ccontainer:hover #C5 {
+    animation-play-state: running;
+}
+
+@keyframes showC5 {
+    from {
+        top: 200px;
+        opacity: 0;
+        width: 80px;
+        height: 80px;
+
+    }
+
+    to {
+        top: 100px;
+        opacity: 1;
+        width: 20px;
+        height: 20px;
+
+    }
+}
+
+#C6 {
+    top: 20px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#C7 {
+    top: 60px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#C8 {
+    top: 100px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scaley(-1);
+    position: absolute;
+
+}
+
+#D1 {
+
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+
+}
+
+#Dcontainer #D1 {
+    animation: showD1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Dcontainer:active #D1,
+#Dcontainer:focus #D1,
+#Dcontainer:hover #D1 {
+    animation-play-state: running;
+}
+
+@keyframes showD1 {
+    from {
+        top: -150px;
+        left: -100px;
+        opacity: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+        opacity: 0;
+    }
+
+    to {
+        top: 68px;
+        left: 8px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        opacity: 1;
+    }
+}
+
+#D2 {
+
+    top: 28px;
+    left: 28px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+
+
+}
+
+
+
+#D3 {
+    top: -12px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#D4 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    transform: scalex(-1)
+}
+
+#Dcontainer #D4 {
+    animation: showD4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Dcontainer:active #D4,
+#Dcontainer:focus #D4,
+#Dcontainer:hover #D4 {
+    animation-play-state: running;
+}
+
+@keyframes showD4 {
+    from {
+        left: 150px;
+        opacity: 0;
+        border-top: 100px solid red;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
+    }
+
+    to {
+        left: 48px;
+        opacity: 1;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+    }
+}
+
+#D5 {
+    top: 88px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#D6 {
+    top: 8px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Dcontainer #D6 {
+    animation: showD6 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Dcontainer:active #D6,
+#Dcontainer:focus #D6,
+#Dcontainer:hover #D6 {
+    animation-play-state: running;
+}
+
+@keyframes showD6 {
+    from {
+        top: 150px;
+        left: 350px;
+        opacity: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+    }
+
+    to {
+        top: 8px;
+        left: 68px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+    }
+}
+
+#D7 {
+    top: 48px;
+    left: 68px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#Dcontainer #D7 {
+    animation: showD7 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Dcontainer:active #D7,
+#Dcontainer:focus #D7,
+#Dcontainer:hover #D7 {
+    animation-play-state: running;
+}
+
+@keyframes showD7 {
+    from {
+        top: -150px;
+        opacity: 0;
+
+        left: 88px;
+        width: 100px;
+        height: 120px;
+        background-color: red;
+    }
+
+    to {
+        top: 48px;
+        opacity: 1;
+
+        left: 68px;
+        width: 20px;
+        height: 40px;
+        background-color: red;
+    }
+}
+
+#D8 {
+    top: 88px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scaley(-1);
+    position: absolute;
+}
+
+#E1 {
+    top: -12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Econtainer #E1 {
+    animation: showE1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Econtainer:active #E1,
+#Econtainer:focus #E1,
+#Econtainer:hover #E1 {
+    animation-play-state: running;
+}
+
+@keyframes showE1 {
+    from {
+        top: 150px;
+        left: -150px;
+        opacity: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+        opacity: 0;
+    }
+
+    to {
+        top: -12px;
+        left: 8px;
+        opacity: 1;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        opacity: 1;
+    }
+}
+
+
+
+#E2 {
+    top: 28px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+
+#E3 {
+    top: 88px;
+    left: 8px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+
+
+}
+
+#Econtainer #E3 {
+    animation: showE3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Econtainer:active #E3,
+#Econtainer:focus #E3,
+#Econtainer:hover #E3 {
+    animation-play-state: running;
+}
+
+@keyframes showE3 {
+    from {
+        top: 150px;
+        left: 350px;
+        opacity: 0;
+        border-top: 100px solid red;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
+        transform: scaleX(-1);
+    }
+
+    to {
+        top: 88px;
+        left: 8px;
+        opacity: 1;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scaleX(-1);
+    }
+}
+
+#E4 {
+    top: 48px;
+    left: 28px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+#E5 {
+    top: 68px;
+    left: 28px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scaleX(1);
+    position: absolute;
+
+}
+
+#Econtainer #E5 {
+    animation: showE5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Econtainer:active #E5,
+#Econtainer:focus #E5,
+#Econtainer:hover #E5 {
+    animation-play-state: running;
+}
+
+@keyframes showE5 {
+    from {
+        top: 150px;
+        left: 350px;
+        opacity: 0;
+        border-top: 100px solid red;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
+        transform: scaleX(-1);
+    }
+
+    to {
+        top: 68px;
+        left: 28px;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scaleX(1);
+        position: absolute;
+    }
+}
+
+#E6 {
+    top: 28px;
+    left: 48px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+#Econtainer #E6 {
+    animation: showE6 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Econtainer:active #E6,
+#Econtainer:focus #E6,
+#Econtainer:hover #E6 {
+    animation-play-state: running;
+}
+
+@keyframes showE6 {
+    from {
+        top: -150px;
+        left: -350px;
+        opacity: 0;
+        border-top: 100px solid red;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
+        transform: scaleX(-1);
+    }
+
+    to {
+        top: 28px;
+        left: 48px;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scaleX(-1);
+        position: absolute;
+    }
+}
+
+#E7 {
+    top: 68px;
+    left: 48px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+#F1 {
+    top: -12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Fcontainer #F1 {
+    animation: showF1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Fcontainer:active #F1,
+#Fcontainer:focus #F1,
+#Fcontainer:hover #F1 {
+    animation-play-state: running;
+}
+
+@keyframes showF1 {
+    from {
+        top: 112px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+        top: -12px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#F2 {
+    top: 28px;
+    left: 8px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+#F3 {
+    top: 108px;
+    left: 8px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(1);
+    position: absolute;
+}
+
+#F4 {
+    top: 48px;
+    left: 28px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+
+}
+
+#Fcontainer #F4 {
+    animation: showF4 2s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Fcontainer:active #F4,
+#Fcontainer:focus #F4,
+#Fcontainer:hover #F4 {
+    animation-play-state: running;
+}
+
+@keyframes showF4 {
+    from {
+        top: 148px;
+        left: 88px;
+        border-top: 100px solid red;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
+        transform: scaleX(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+        top: 48px;
+        left: 28px;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scaleX(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#F5 {
+    top: 28px;
+    left: 48px;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+#Fcontainer #F5 {
+    animation: showF5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Fcontainer:active #F5,
+#Fcontainer:focus #F5,
+#Fcontainer:hover #F5 {
+    animation-play-state: running;
+}
+
+@keyframes showF5 {
+    from {
+        top: 328px;
+        left: 148px;
+        border-top: 40px solid red;
+        border-bottom: 40px solid transparent;
+        border-right: 40px solid transparent;
+        transform: scaleX(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 28px;
+        left: 48px;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scaleX(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#G1 {
+    top: 0px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#Gcontainer #G1 {
+    animation: showG1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Gcontainer:active #G1,
+#Gcontainer:focus #G1,
+#Gcontainer:hover #G1 {
+    animation-play-state: running;
+}
+
+@keyframes showG1 {
+    from {
+        top: -100px;
+        left: -28px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 0px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#G2 {
+    top: 40px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+
+
+}
+
+#G3 {
+    top: 100px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#Gcontainer #G3 {
+    animation: showG3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Gcontainer:active #G3,
+#Gcontainer:focus #G3,
+#Gcontainer:hover #G3 {
+    animation-play-state: running;
+}
+
+@keyframes showG3 {
+    from {
+        top: 100px;
+        left: -48px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid red;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 100px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#G4 {
+    top: 0px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#G5 {
+    top: 100px;
+    left: 28px;
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+
+}
+
+#G6 {
+    top: 80px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Gcontainer #G6 {
+    animation: showG6 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Gcontainer:active #G6,
+#Gcontainer:focus #G6,
+#Gcontainer:hover #G6 {
+    animation-play-state: running;
+}
+
+@keyframes showG6 {
+    from {
+        top: 280px;
+        left: -1128px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid red;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 80px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#G7 {
+    top: 20px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#G8 {
+    top: 60px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#G9 {
+    top: 120px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Gcontainer #G9 {
+    animation: showG9 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Gcontainer:active #G9,
+#Gcontainer:focus #G9,
+#Gcontainer:hover #G9 {
+    animation-play-state: running;
+}
+
+@keyframes showG9 {
+    from {
+        top: -120px;
+        left: 248px;
+        width: 0;
+        height: 0;
+        border-top: 70px solid red;
+        border-bottom: 70px solid transparent;
+        border-right: 70px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 120px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#H1 {
+    top: -12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H2 {
+    top: 28px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#Hcontainer #H2 {
+    animation: showH2 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Hcontainer:active #H2,
+#Hcontainer:focus #H2,
+#Hcontainer:hover #H2 {
+    animation-play-state: running;
+}
+
+@keyframes showH2 {
+    from {
+        top: 28px;
+        left: 328px;
+        width: 80px;
+        height: 240px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 28px;
+        left: 8px;
+        width: 20px;
+        height: 60px;
+        background-color: red;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#H3 {
+    top: 88px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Hcontainer #H3 {
+    animation: showH3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Hcontainer:active #H3,
+#Hcontainer:focus #H3,
+#Hcontainer:hover #H3 {
+    animation-play-state: running;
+}
+
+@keyframes showH3 {
+    from {
+        top: 188px;
+        left: -68px;
+        width: 0;
+        height: 0;
+        border-top: 400px solid red;
+        border-bottom: 400px solid transparent;
+        border-right: 400px solid transparent;
+        transform: scalex(-1);
+        opacity: 0;
+    }
+
+    to {
+
+        top: 88px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        opacity: 1;
+    }
+}
+
+#H4 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H5 {
+    top: 8px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#H6 {
+    top: 48px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#H7 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Hcontainer #H7 {
+    animation: showH7 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Hcontainer:active #H7,
+#Hcontainer:focus #H7,
+#Hcontainer:hover #H7 {
+    animation-play-state: running;
+}
+
+@keyframes showH7 {
+    from {
+        top: 208px;
+        left: 148px;
+        width: 0;
+        height: 0;
+        border-top: 70px solid red;
+        border-bottom: 70px solid transparent;
+        border-right: 70px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 108px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#I1 {
+    top: -12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Icontainer #I1 {
+    animation: showI1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Icontainer:active #I1,
+#Icontainer:focus #I1,
+#Icontainer:hover #I1 {
+    animation-play-state: running;
+}
+
+@keyframes showI1 {
+    from {
+        top: -212px;
+        left: 88px;
+        width: 0;
+        height: 0;
+        border-top: 90px solid transparent;
+        border-bottom: 90px solid red;
+        border-right: 90px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: -12px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#I2 {
+    top: 28px;
+    left: 8px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+#I3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#I4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Icontainer #I4 {
+    animation: showI4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Icontainer:active #I4,
+#Icontainer:focus #I4,
+#Icontainer:hover #I4 {
+    animation-play-state: running;
+}
+
+@keyframes showI4 {
+    from {
+        top: 608px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 8px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#J1 {
+    top: 48px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Jcontainer #J1 {
+    animation: showJ1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Jcontainer:active #J1,
+#Jcontainer:focus #J1,
+#Jcontainer:hover #J1 {
+    animation-play-state: running;
+}
+
+@keyframes showJ1 {
+    from {
+        top: 48px;
+        left: 108px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 48px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#J2 {
+    top: 68px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#J3 {
+
+    top: -12px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#Jcontainer #J3 {
+    animation: showJ3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Jcontainer:active #J3,
+#Jcontainer:focus #J3,
+#Jcontainer:hover #J3 {
+    animation-play-state: running;
+}
+
+@keyframes showJ3 {
+    from {
+        top: -612px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: -12px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#J4 {
+    top: 28px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#J5 {
+
+    top: 88px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#Jcontainer #J5 {
+    animation: showJ5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Jcontainer:active #J5,
+#Jcontainer:focus #J5,
+#Jcontainer:hover #J5 {
+    animation-play-state: running;
+}
+
+@keyframes showJ5 {
+    from {
+        top: 88px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid red;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 88px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+
+#K1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#Kcontainer #K1 {
+    animation: showK1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Kcontainer:active #K1,
+#Kcontainer:focus #K1,
+#Kcontainer:hover #K1 {
+    animation-play-state: running;
+}
+
+@keyframes showK1 {
+    from {
+        top: -128px;
+        left: -28px;
+        width: 0;
+        height: 0;
+        border-top: 90px solid transparent;
+        border-bottom: 90px solid red;
+        border-right: 90px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 8px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#K2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#Kcontainer #K2 {
+    animation: showK2 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Kcontainer:active #K2,
+#Kcontainer:focus #K2,
+#Kcontainer:hover #K2 {
+    animation-play-state: running;
+}
+
+@keyframes showK2 {
+    from {
+        top: 48px;
+        left: -88px;
+        width: 80px;
+        height: 240px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 48px;
+        left: 8px;
+        width: 20px;
+        height: 60px;
+        background-color: red;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#K3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#Kcontainer #K3 {
+    animation: showK3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Kcontainer:active #K3,
+#Kcontainer:focus #K3,
+#Kcontainer:hover #K3 {
+    animation-play-state: running;
+}
+
+@keyframes showK3 {
+    from {
+        top: 108px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid red;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 108px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#K4 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#Kcontainer #K4 {
+    animation: showK4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Kcontainer:active #K4,
+#Kcontainer:focus #K4,
+#Kcontainer:hover #K4 {
+    animation-play-state: running;
+}
+
+@keyframes showK4 {
+    from {
+        top: 148px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 48px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#K5 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#K6 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#K7 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#K8 {
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#K9 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#K10 {
+    top: 128px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#L1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+
+
+#L2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#L3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#L4 {
+    top: 88px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Lcontainer #L4 {
+    animation: showL4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Lcontainer:active #L4,
+#Lcontainer:focus #L4,
+#Lcontainer:hover #L4 {
+    animation-play-state: running;
+}
+
+@keyframes showL4 {
+    from {
+        top: 188px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 500px solid transparent;
+        border-bottom: 500px solid red;
+        border-right: 500px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 88px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+
+#M1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Mcontainer #M1 {
+    animation: showM1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Mcontainer:active #M1,
+#Mcontainer:focus #M1,
+#Mcontainer:hover #M1 {
+    animation-play-state: running;
+}
+
+@keyframes showM1 {
+    from {
+        top: 48px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 200px solid transparent;
+        border-bottom: 200px solid red;
+        border-right: 200px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 8px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#M2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#M3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#M4 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#M5 {
+    top: 68px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#M6 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Mcontainer #M6 {
+    animation: showM6 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Mcontainer:active #M6,
+#Mcontainer:focus #M6,
+#Mcontainer:hover #M6 {
+    animation-play-state: running;
+}
+
+@keyframes showM6 {
+    from {
+        top: 88px;
+        left: 88px;
+        width: 0;
+        height: 0;
+        border-top: 600px solid transparent;
+        border-bottom: 600px solid red;
+        border-right: 600px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 28px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#M7 {
+    width: 20px;
+    height: 60px;
+    top: 68px;
+    left: 68px;
+    background-color: red;
+    position: absolute;
+}
+
+#M8 {
+    top: 28px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+
+#M9 {
+    top: 128px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#N1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Ncontainer #N1 {
+    animation: showN1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ncontainer:active #N1,
+#Ncontainer:focus #N1,
+#Ncontainer:hover #N1 {
+    animation-play-state: running;
+}
+
+@keyframes showN1 {
+    from {
+        top: 48px;
+        left: 888px;
+        width: 0;
+        height: 0;
+        border-top: 200px solid transparent;
+        border-bottom: 200px solid red;
+        border-right: 200px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 8px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#N2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#N3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#N4 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#N5 {
+    top: 68px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#N6 {
+    top: 68px;
+    left: 48px;
+    height: 60px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Ncontainer #N6 {
+    animation: showN6 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ncontainer:active #N6,
+#Ncontainer:focus #N6,
+#Ncontainer:hover #N6 {
+    animation-play-state: running;
+}
+
+@keyframes showN6 {
+    from {
+        top: 68px;
+        left: -348px;
+        height: 600px;
+        width: 200px;
+        background-color: red;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 68px;
+        left: 48px;
+        height: 60px;
+        width: 20px;
+        background-color: red;
+        opacity: 1;
+    }
+}
+
+
+#N7 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#O1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#O2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#O3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#O4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Ocontainer #O4 {
+    animation: showO4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ocontainer:active #O4,
+#Ocontainer:focus #O4,
+#Ocontainer:hover #O4 {
+    animation-play-state: running;
+}
+
+@keyframes showO4 {
+    from {
+        top: 8px;
+        left: -28px;
+        width: 0;
+        height: 0;
+        border-top: 200px solid transparent;
+        border-bottom: 200px solid red;
+        border-right: 200px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 8px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#O5 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Ocontainer #O5 {
+    animation: showO5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ocontainer:active #O5,
+#Ocontainer:focus #O5,
+#Ocontainer:hover #O5 {
+    animation-play-state: running;
+}
+
+@keyframes showO5 {
+    from {
+        top: 48px;
+        left: -228px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-);
+        opacity: 0;
+    }
+
+    to {
+
+        top: 48px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-);
+        opacity: 1;
+    }
+}
+
+#O6 {
+    top: 108px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Ocontainer #O6 {
+    animation: showO6 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ocontainer:active #O6,
+#Ocontainer:focus #O6,
+#Ocontainer:hover #O6 {
+    animation-play-state: running;
+}
+
+@keyframes showO6 {
+    from {
+        top: 308px;
+        left: 28px;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 108px;
+        left: 28px;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+
+#O7 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#O8 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#O9 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#P1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Pcontainer #P1 {
+    animation: showP1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Pcontainer:active #P1,
+#Pcontainer:focus #P1,
+#Pcontainer:hover #P1 {
+    animation-play-state: running;
+}
+
+@keyframes showP1 {
+    from {
+        top: -48px;
+        left: -48px;
+        width: 0;
+        height: 0;
+        border-top: 600px solid transparent;
+        border-bottom: 600px solid red;
+        border-right: 600px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 8px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#P2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+#Pcontainer #P2 {
+    animation: showP2 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Pcontainer:active #P2,
+#Pcontainer:focus #P2,
+#Pcontainer:hover #P2 {
+    animation-play-state: running;
+}
+
+@keyframes showP2 {
+    from {
+        top: 48px;
+        left: -308px;
+        width: 40px;
+        height: 160px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 48px;
+        left: 8px;
+        width: 20px;
+        height: 80px;
+        background-color: red;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#P3 {
+    top: 128px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#P4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#P5 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#P6 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#P7 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Q1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Q2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#Qcontainer #Q2 {
+    animation: showQ2 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Qcontainer:active #Q2,
+#Qcontainer:focus #Q2,
+#Qcontainer:hover #Q2 {
+    animation-play-state: running;
+}
+
+@keyframes showQ2 {
+    from {
+        top: 48px;
+        left: -308px;
+        width: 40px;
+        height: 160px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 48px;
+        left: 8px;
+        width: 20px;
+        height: 60px;
+        background-color: red;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#Q3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Q4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Q5 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Q6 {
+    top: 108px;
+    left: 28px;
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Q7 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Q8 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#Q9 {
+    top: 88px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#R1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#R2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#R3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#R4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Rcontainer #R4 {
+    animation: showR4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Rcontainer:active #R4,
+#Rcontainer:focus #R4,
+#Rcontainer:hover #R4 {
+    animation-play-state: running;
+}
+
+@keyframes showR4 {
+    from {
+        top: -208px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 8px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#R5 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Rcontainer #R5 {
+    animation: showR5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Rcontainer:active #R5,
+#Rcontainer:focus #R5,
+#Rcontainer:hover #R5 {
+    animation-play-state: running;
+}
+
+@keyframes showR5 {
+    from {
+        top: 248px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 200px solid transparent;
+        border-bottom: 200px solid red;
+        border-right: 200px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 48px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#R6 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#R7 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#R8 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#R9 {
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#R10 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#R11 {
+    top: 128px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#S1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Scontainer #S1 {
+    animation: showS1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Scontainer:active #S1,
+#Scontainer:focus #S1,
+#Scontainer:hover #S1 {
+    animation-play-state: running;
+}
+
+@keyframes showS1 {
+    from {
+        top: -58px;
+        left: -8px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 8px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#S2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Scontainer #S2 {
+    animation: showS2 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Scontainer:active #S2,
+#Scontainer:focus #S2,
+#Scontainer:hover #S2 {
+    animation-play-state: running;
+}
+
+@keyframes showS2 {
+    from {
+        top: 48px;
+        left: -88px;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 48px;
+        left: 8px;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#S3 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Scontainer #S3 {
+    animation: showS3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Scontainer:active #S3,
+#Scontainer:focus #S3,
+#Scontainer:hover #S3 {
+    animation-play-state: running;
+}
+
+@keyframes showS3 {
+    from {
+        top: 68px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 80px solid red;
+        border-bottom: 80px solid transparent;
+        border-right: 80px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 68px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#S4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S5 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S6 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#S7 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S8 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#S9 {
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#S10 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#T1 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Tcontainer #T1 {
+    animation: showT1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Tcontainer:active #T1,
+#Tcontainer:focus #T1,
+#Tcontainer:hover #T1 {
+    animation-play-state: running;
+}
+
+@keyframes showT1 {
+    from {
+        top: 28px;
+        left: -28px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid red;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 28px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#T2 {
+    top: 8px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#T3 {
+    top: 48px;
+    left: 48px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+#T4 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#T5 {
+    top: 48px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Tcontainer #T5 {
+    animation: showT5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Tcontainer:active #T5,
+#Tcontainer:focus #T5,
+#Tcontainer:hover #T5 {
+    animation-play-state: running;
+}
+
+@keyframes showT5 {
+    from {
+        top: 108px;
+        left: 68px;
+        width: 0;
+        height: 0;
+        border-top: 200px solid red;
+        border-bottom: 200px solid transparent;
+        border-right: 200px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 48px;
+        left: 68px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#U1 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#U2 {
+    top: 68px;
+    left: 28px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#U3 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#U4 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+
+}
+
+#Ucontainer #U4 {
+    animation: showU4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ucontainer:active #U4,
+#Ucontainer:focus #U4,
+#Ucontainer:hover #U4 {
+    animation-play-state: running;
+}
+
+@keyframes showU4 {
+    from {
+        top: -108px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid red;
+        border-right: 80px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 108px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#U5 {
+
+    top: 48px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#U6 {
+    top: 88px;
+    left: 68px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#U7 {
+    top: 148px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#V1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Vcontainer #V1 {
+    animation: showV1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Vcontainer:active #V1,
+#Vcontainer:focus #V1,
+#Vcontainer:hover #V1 {
+    animation-play-state: running;
+}
+
+@keyframes showV1 {
+    from {
+        top: -108px;
+        left: -108px;
+        width: 0;
+        height: 0;
+        border-top: 90px solid transparent;
+        border-bottom: 90px solid red;
+        border-right: 90px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 8px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#V2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#V3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#V4 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Vcontainer #V4 {
+    animation: showV4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Vcontainer:active #V4,
+#Vcontainer:focus #V4,
+#Vcontainer:hover #V4 {
+    animation-play-state: running;
+}
+
+@keyframes showV4 {
+    from {
+        top: 228px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 28px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#V5 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#V6 {
+    top: 88px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#V7 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#W1 {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#W2 {
+    top: 68px;
+    left: 28px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#W3 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#W4 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Wcontainer #W4 {
+    animation: showW4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Wcontainer:active #W4,
+#Wcontainer:focus #W4,
+#Wcontainer:hover #W4 {
+    animation-play-state: running;
+}
+
+@keyframes showW4 {
+    from {
+        top: 308px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 108px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#W5 {
+
+    top: 48px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+
+}
+
+#W6 {
+    top: 88px;
+    left: 68px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+
+#W7 {
+    top: 148px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#W8 {
+    top: 128px;
+    left: 88px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Wcontainer #W8 {
+    animation: showW8 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Wcontainer:active #W8,
+#Wcontainer:focus #W8,
+#Wcontainer:hover #W8 {
+    animation-play-state: running;
+}
+
+@keyframes showW8 {
+    from {
+        top: -228px;
+        left: 88px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 128px;
+        left: 88px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+
+
+#W9 {
+    top: 68px;
+    left: 68px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+
+
+#W10 {
+    top: 68px;
+    left: 108px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Wcontainer #W10 {
+    animation: showW10 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Wcontainer:active #W10,
+#Wcontainer:focus #W10,
+#Wcontainer:hover #W10 {
+    animation-play-state: running;
+}
+
+@keyframes showW10 {
+    from {
+        top: 68px;
+        left: 408px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 68px;
+        left: 108px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+
+#W11 {
+    top: 108px;
+    left: 108px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#Wcontainer #W11 {
+    animation: showW11 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Wcontainer:active #W11,
+#Wcontainer:focus #W11,
+#Wcontainer:hover #W11 {
+    animation-play-state: running;
+}
+
+@keyframes showW11 {
+    from {
+        top: 108px;
+        left: 408px;
+        width: 20px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 108px;
+        left: 108px;
+        width: 20px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#W12 {
+    top: 148px;
+    left: 108px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Wcontainer #W12 {
+    animation: showW12 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Wcontainer:active #W12,
+#Wcontainer:focus #W12,
+#Wcontainer:hover #W12 {
+    animation-play-state: running;
+}
+
+@keyframes showW12 {
+    from {
+        top: 148px;
+        left: 408px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 148px;
+        left: 108px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#X1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+
+
+#X2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+}
+
+#X3 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#X4 {
+    top: 88px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+}
+
+
+#Xcontainer #X4 {
+    animation: showX4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Xcontainer:active #X4,
+#Xcontainer:focus #X4,
+#Xcontainer:hover #X4 {
+    animation-play-state: running;
+}
+
+@keyframes showX4 {
+    from {
+        top: 88px;
+        left: -108px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-color: red;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 88px;
+        left: 8px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-color: red;
+        opacity: 1;
+    }
+}
+
+#X5 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Xcontainer #X5 {
+    animation: showX5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Xcontainer:active #X5,
+#Xcontainer:focus #X5,
+#Xcontainer:hover #X5 {
+    animation-play-state: running;
+}
+
+@keyframes showX5 {
+    from {
+        top: 308px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+    to {
+
+        top: 108px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 1;
+    }
+}
+
+#X6 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#X7 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Xcontainer #X7 {
+    animation: showX7 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Xcontainer:active #X7,
+#Xcontainer:focus #X7,
+#Xcontainer:hover #X7 {
+    animation-play-state: running;
+}
+
+@keyframes showX7 {
+    from {
+        top: -228px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+
+}
+
+to {
+
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+
+
+#X8 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+}
+
+
+#Xcontainer #X8 {
+    animation: showX8 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Xcontainer:active #X8,
+#Xcontainer:focus #X8,
+#Xcontainer:hover #X8 {
+    animation-play-state: running;
+}
+
+@keyframes showX8 {
+    from {
+        top: 68px;
+        left: 248px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-color: red;
+        opacity: 0;
+    }
+
+
+}
+
+to {
+
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+    opacity: 1;
+}
+
+#X9 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Xcontainer #X9 {
+    animation: showX9 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Xcontainer:active #X9,
+#Xcontainer:focus #X9,
+#Xcontainer:hover #X9 {
+    animation-play-state: running;
+}
+
+@keyframes showX9 {
+    from {
+        top: 68px;
+        left: 348px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+
+}
+
+to {
+
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#X10 {
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+}
+
+#Xcontainer #X10 {
+    animation: showX10 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Xcontainer:active #X10,
+#Xcontainer:focus #X10,
+#Xcontainer:hover #X10 {
+    animation-play-state: running;
+}
+
+@keyframes showX10 {
+    from {
+        top: 208px;
+        left: 48px;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        background-color: red;
+        opacity: 0;
+    }
+
+
+}
+
+to {
+
+    top: 108px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+    opacity: 1;
+}
+
+#X11 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Xcontainer #X11 {
+    animation: showX11 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Xcontainer:active #X11,
+#Xcontainer:focus #X11,
+#Xcontainer:hover #X11 {
+    animation-play-state: running;
+}
+
+@keyframes showX11 {
+    from {
+        top: 228px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 80px solid red;
+        border-bottom: 80px solid transparent;
+        border-right: 80px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+
+
+}
+
+to {
+
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Y1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Y2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+}
+
+#Y3 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Y4 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Ycontainer #Y4 {
+    animation: showY4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ycontainer:active #Y4,
+#Ycontainer:focus #Y4,
+#Ycontainer:hover #Y4 {
+    animation-play-state: running;
+}
+
+@keyframes showY4 {
+    from {
+        top: -248px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+
+}
+
+to {
+
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Y5 {
+    top: 88px;
+    left: 28px;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    background-color: red;
+}
+
+#Y6 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Y7 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Ycontainer #Y7 {
+    animation: showY7 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ycontainer:active #Y7,
+#Ycontainer:focus #Y7,
+#Ycontainer:hover #Y7 {
+    animation-play-state: running;
+}
+
+@keyframes showY7 {
+    from {
+        top: -128px;
+        left: 148px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+
+}
+
+to {
+
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Y8 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Ycontainer #Y8 {
+    animation: showY8 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ycontainer:active #Y8,
+#Ycontainer:focus #Y8,
+#Ycontainer:hover #Y8 {
+    animation-play-state: running;
+}
+
+@keyframes showY8 {
+    from {
+        top: 68px;
+        left: 148px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+
+
+}
+
+to {
+
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Z1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+
+#Zcontainer #Z1 {
+    animation: showZ1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Zcontainer:active #Z1,
+#Zcontainer:focus #Z1,
+#Zcontainer:hover #Z1 {
+    animation-play-state: running;
+}
+
+@keyframes showZ1 {
+    from {
+        top: -108px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Z2 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Z3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Zcontainer #Z3 {
+    animation: showZ3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Zcontainer:active #Z3,
+#Zcontainer:focus #Z3,
+#Zcontainer:hover #Z3 {
+    animation-play-state: running;
+}
+
+@keyframes showZ3 {
+    from {
+        top: 208px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Z4 {
+    top: 88px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Z5 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Z6 {
+    top: 48px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+}
+
+#Z7 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Z8 {
+    top: 88px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Zcontainer #Z8 {
+    animation: showZ8 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Zcontainer:active #Z8,
+#Zcontainer:focus #Z8,
+#Zcontainer:hover #Z8 {
+    animation-play-state: running;
+}
+
+@keyframes showZ8 {
+    from {
+        top: 88px;
+        left: 148px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 88px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Zero1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Zero2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#Zero3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Zero4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Zerocontainer #Zero4 {
+    animation: showZero4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Zerocontainer:active #Zero4,
+#Zerocontainer:focus #Zero4,
+#Zerocontainer:hover #Zero4 {
+    animation-play-state: running;
+}
+
+@keyframes showZero4 {
+    from {
+        top: -108px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+    opacity: 1;
+}
+
+
+#Zero5 {
+    top: 108px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Zerocontainer #Zero5 {
+    animation: showZero5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Zerocontainer:active #Zero5,
+#Zerocontainer:focus #Zero5,
+#Zerocontainer:hover #Zero5 {
+    animation-play-state: running;
+}
+
+@keyframes showZero5 {
+    from {
+        top: 208px;
+        left: 28px;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 108px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    opacity: 1;
+}
+
+#Zero6 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Zerocontainer #Zero6 {
+    animation: showZero6 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Zerocontainer:active #Zero6,
+#Zerocontainer:focus #Zero6,
+#Zerocontainer:hover #Zero6 {
+    animation-play-state: running;
+}
+
+@keyframes showZero6 {
+    from {
+        top: 28px;
+        left: 148px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+    opacity: 1;
+}
+
+#Zero7 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#Zero8 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#One1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Onecontainer #One1 {
+    animation: showOne1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Onecontainer:active #One1,
+#Onecontainer:focus #One1,
+#Onecontainer:hover #One1 {
+    animation-play-state: running;
+}
+
+@keyframes showOne1 {
+    from {
+        top: 8px;
+        left: -108px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid red;
+        border-right: 100px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#One2 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Onecontainer #One2 {
+    animation: showOne2 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Onecontainer:active #One2,
+#Onecontainer:focus #One2,
+#Onecontainer:hover #One2 {
+    animation-play-state: running;
+}
+
+@keyframes showOne2 {
+    from {
+        top: 8px;
+        left: 128px;
+        width: 0;
+        height: 0;
+        border-top: 60px solid transparent;
+        border-bottom: 60px solid red;
+        border-right: 60px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+    opacity: 1;
+}
+
+#One3 {
+    top: 48px;
+    left: 28px;
+    width: 20px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+}
+
+#One4 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Onecontainer #One4 {
+    animation: showOne4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Onecontainer:active #One4,
+#Onecontainer:focus #One4,
+#Onecontainer:hover #One4 {
+    animation-play-state: running;
+}
+
+@keyframes showOne4 {
+    from {
+        top: 228px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Two1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Twocontainer #Two1 {
+    animation: showTwo1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Twocontainer:active #Two1,
+#Twocontainer:focus #Two1,
+#Twocontainer:hover #Two1 {
+    animation-play-state: running;
+}
+
+@keyframes showTwo1 {
+    from {
+        top: -108px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 60px solid transparent;
+        border-bottom: 60px solid red;
+        border-right: 60px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+    opacity: 1;
+}
+
+#Two2 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Two3 {
+    top: 108px;
+    left: 8px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Two4 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Two5 {
+    top: 88px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Two6 {
+    top: 88px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Twocontainer #Two6 {
+    animation: showTwo6 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Twocontainer:active #Two6,
+#Twocontainer:focus #Two6,
+#Twocontainer:hover #Two6 {
+    animation-play-state: running;
+}
+
+@keyframes showTwo6 {
+    from {
+        top: 88px;
+        left: 128px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 88px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+    opacity: 1;
+}
+
+#Two7 {
+    top: 48px;
+    left: 48px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Two8 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Two9 {
+    top: 88px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Twocontainer #Two9 {
+    animation: showTwo9 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Twocontainer:active #Two9,
+#Twocontainer:focus #Two9,
+#Twocontainer:hover #Two9 {
+    animation-play-state: running;
+}
+
+@keyframes showTwo9 {
+    from {
+        top: 188px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 88px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Three1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Threecontainer #Three1 {
+    animation: showThree1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Threecontainer:active #Three1,
+#Threecontainer:focus #Three1,
+#Threecontainer:hover #Three1 {
+    animation-play-state: running;
+}
+
+@keyframes showThree1 {
+    from {
+        top: 8px;
+        left: -108px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+    opacity: 1;
+}
+
+#Three2 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Threecontainer #Three2 {
+    animation: showThree2 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Threecontainer:active #Three2,
+#Threecontainer:focus #Three2,
+#Threecontainer:hover #Three2 {
+    animation-play-state: running;
+}
+
+@keyframes showThree2 {
+    from {
+        top: 168px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid red;
+        border-right: 80px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+    opacity: 1;
+}
+
+#Three3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Three4 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Threecontainer #Three4 {
+    animation: showThree4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Threecontainer:active #Three4,
+#Threecontainer:focus #Three4,
+#Threecontainer:hover #Three4 {
+    animation-play-state: running;
+}
+
+@keyframes showThree4 {
+    from {
+        top: -148px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid red;
+        border-right: 80px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Three5 {
+    top: 108px;
+    left: 28px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Three6 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Three7 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Three8 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Three9 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Four1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Fourcontainer #Four1 {
+    animation: showFour1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Fourcontainer:active #Four1,
+#Fourcontainer:focus #Four1,
+#Fourcontainer:hover #Four1 {
+    animation-play-state: running;
+}
+
+@keyframes showFour1 {
+    from {
+        top: -108px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 60px solid transparent;
+        border-bottom: 60px solid red;
+        border-right: 60px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+    opacity: 1;
+}
+
+#Four2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
+
+#Fourcontainer #Four2 {
+    animation: showFour2 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Fourcontainer:active #Four2,
+#Fourcontainer:focus #Four2,
+#Fourcontainer:hover #Four2 {
+    animation-play-state: running;
+}
+
+@keyframes showFour2 {
+    from {
+        top: 48px;
+        left: -208px;
+        width: 80px;
+        height: 160px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    opacity: 1;
+}
+
+#Four3 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Fourcontainer #Four3 {
+    animation: showFour3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Fourcontainer:active #Four3,
+#Fourcontainer:focus #Four3,
+#Fourcontainer:hover #Four3 {
+    animation-play-state: running;
+}
+
+@keyframes showFour3 {
+    from {
+        top: 248px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Four5 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Four6 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#Four7 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+
+}
+
+#Five1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Five2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Five3 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Five4 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Fivecontainer #Five4 {
+    animation: showFive4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Fivecontainer:active #Five4,
+#Fivecontainer:focus #Five4,
+#Fivecontainer:hover #Five4 {
+    animation-play-state: running;
+}
+
+@keyframes showFive4 {
+    from {
+        top: 68px;
+        left: -108px;
+        width: 0;
+        height: 0;
+        border-top: 60px solid transparent;
+        border-bottom: 60px solid red;
+        border-right: 60px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+    opacity: 1;
+}
+
+#Five5 {
+    top: 108px;
+    left: 28px;
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Fivecontainer #Five5 {
+    animation: showFive5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Fivecontainer:active #Five5,
+#Fivecontainer:focus #Five5,
+#Fivecontainer:hover #Five5 {
+    animation-play-state: running;
+}
+
+@keyframes showFive5 {
+    from {
+        top: 208px;
+        left: 28px;
+        width: 80px;
+        height: 40px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 108px;
+    left: 28px;
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    opacity: 1;
+}
+
+#Five6 {
+    top: 88px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Five7 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+}
+
+#Fivecontainer #Five7 {
+    animation: showFive7 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Fivecontainer:active #Five7,
+#Fivecontainer:focus #Five7,
+#Fivecontainer:hover #Five7 {
+    animation-play-state: running;
+}
+
+@keyframes showFive7 {
+    from {
+        top: -88px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-);
+    position: absolute;
+    opacity: 1;
+}
+
+#Five8 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Fivecontainer #Five8 {
+    animation: showFive8 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Fivecontainer:active #Five8,
+#Fivecontainer:focus #Five8,
+#Fivecontainer:hover #Five8 {
+    animation-play-state: running;
+}
+
+@keyframes showFive8 {
+    from {
+        top: 68px;
+        left: 148px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Five9 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Five10 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Fivecontainer #Five10 {
+    animation: showFive10 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Fivecontainer:active #Five10,
+#Fivecontainer:focus #Five10,
+#Fivecontainer:hover #Five10 {
+    animation-play-state: running;
+}
+
+@keyframes showFive10 {
+    from {
+        top: 208px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        opacity: 0;
+    }
+}
+
+to {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    opacity: 1;
+}
+
+#Six1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Six2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    position: absolute;
+    background-color: red;
+}
+
+#Six3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Six4 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Sixcontainer #Six4 {
+    animation: showSix4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Sixcontainer:active #Six4,
+#Sixcontainer:focus #Six4,
+#Sixcontainer:hover #Six4 {
+    animation-play-state: running;
+}
+
+@keyframes showSix4 {
+    from {
+        top: -148px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid red;
+        border-right: 80px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Six5 {
+    top: 108px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+}
+
+#Sixcontainer #Six5 {
+    animation: showSix5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Sixcontainer:active #Six5,
+#Sixcontainer:focus #Six5,
+#Sixcontainer:hover #Six5 {
+    animation-play-state: running;
+}
+
+@keyframes showSix5 {
+    from {
+        top: 208px;
+        left: 28px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-color: red;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 108px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+    opacity: 1;
+}
+
+#Six6 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Sixcontainer #Six6 {
+    animation: showSix6 2s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Sixcontainer:active #Six6,
+#Sixcontainer:focus #Six6,
+#Sixcontainer:hover #Six6 {
+    animation-play-state: running;
+}
+
+@keyframes showSix6 {
+    from {
+        top: 68px;
+        left: 148px;
+        width: 0;
+        height: 0;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid red;
+        border-right: 80px solid transparent;
+        transform: scalex(1);
+        opacity: 0;
+    }
+}
+
+to {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    opacity: 1;
+}
+
+#Six7 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Sixcontainer #Six7 {
+    animation: showSix7 .5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Sixcontainer:active #Six7,
+#Sixcontainer:focus #Six7,
+#Sixcontainer:hover #Six7 {
+    animation-play-state: running;
+}
+
+@keyframes showSix7 {
+    from {
+        top: 208px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Seven1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Sevencontainer #Seven1 {
+    animation: showSeven1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Sevencontainer:active #Seven1,
+#Sevencontainer:focus #Seven1,
+#Sevencontainer:hover #Seven1 {
+    animation-play-state: running;
+}
+
+@keyframes showSeven1 {
+    from {
+        top: 8px;
+        left: -88px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Seven2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Sevencontainer #Seven2 {
+    animation: showSeven2 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Sevencontainer:active #Seven2,
+#Sevencontainer:focus #Seven2,
+#Sevencontainer:hover #Seven2 {
+    animation-play-state: running;
+}
+
+@keyframes showSeven2 {
+    from {
+        top: 148px;
+        left: 8px;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    opacity: 1;
+}
+
+#Seven3 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Sevencontainer #Seven3 {
+    animation: showSeven3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Sevencontainer:active #Seven3,
+#Sevencontainer:focus #Seven3,
+#Sevencontainer:hover #Seven3 {
+    animation-play-state: running;
+}
+
+@keyframes showSeven3 {
+    from {
+        top: 168px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Seven4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+
+#Sevencontainer #Seven4 {
+    animation: showSeven4 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Sevencontainer:active #Seven4,
+#Sevencontainer:focus #Seven4,
+#Sevencontainer:hover #Seven4 {
+    animation-play-state: running;
+}
+
+@keyframes showSeven4 {
+    from {
+        top: 8px;
+        left: 128px;
+        width: 0;
+        height: 0;
+        border-top: 60px solid transparent;
+        border-bottom: 60px solid red;
+        border-right: 60px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Seven5 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Seven6 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#Seven7 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Eight1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Eight2 {
+    top: 48px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Eight3 {
+    top: 48px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Eight4 {
+    top: 88px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+
+}
+
+#Eight5 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Eight6 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Eightcontainer #Eight6 {
+    animation: showEight6 2s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Eightcontainer:active #Eight6,
+#Eightcontainer:focus #Eight6,
+#Eightcontainer:hover #Eight6 {
+    animation-play-state: running;
+}
+
+@keyframes showEight6 {
+    from {
+        top: -108px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Eight7 {
+    top: 68px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Eightcontainer #Eight7 {
+    animation: showEight7 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Eightcontainer:active #Eight7,
+#Eightcontainer:focus #Eight7,
+#Eightcontainer:hover #Eight7 {
+    animation-play-state: running;
+}
+
+@keyframes showEight7 {
+    from {
+        top: 68px;
+        left: -128px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 68px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Eight8 {
+    top: 108px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+
+}
+
+#Eightcontainer #Eight8 {
+    animation: showEight8 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Eightcontainer:active #Eight8,
+#Eightcontainer:focus #Eight8,
+#Eightcontainer:hover #Eight8 {
+    animation-play-state: running;
+}
+
+@keyframes showEight8 {
+    from {
+        top: 208px;
+        left: 28px;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 108px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    opacity: 1;
+}
+
+#Eight9 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Eightcontainer #Eight9 {
+    animation: showEight9 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Eightcontainer:active #Eight9,
+#Eightcontainer:focus #Eight9,
+#Eightcontainer:hover #Eight9 {
+    animation-play-state: running;
+}
+
+@keyframes showEight9 {
+    from {
+        top: 28px;
+        left: 148px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        opacity: 0;
+    }
+}
+
+to {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    opacity: 1;
+}
+
+#Eight10 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Eightcontainer #Eight10 {
+    animation: showEight10 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Eightcontainer:active #Eight10,
+#Eightcontainer:focus #Eight10,
+#Eightcontainer:hover #Eight10 {
+    animation-play-state: running;
+}
+
+@keyframes showEight10 {
+    from {
+        top: 168px;
+        left: 148px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Eight11 {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Eightcontainer #Eight11 {
+    animation: showEight11 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Eightcontainer:active #Eight11,
+#Eightcontainer:focus #Eight11,
+#Eightcontainer:hover #Eight11 {
+    animation-play-state: running;
+}
+
+@keyframes showEight11 {
+    from {
+        top: 68px;
+        left: 148px;
+        width: 0;
+        height: 0;
+        border-top: 60px solid transparent;
+        border-bottom: 60px solid red;
+        border-right: 60px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 68px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Eight12 {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Eightcontainer #Eight12 {
+    animation: showEight12 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Eightcontainer:active #Eight12,
+#Eightcontainer:focus #Eight12,
+#Eightcontainer:hover #Eight12 {
+    animation-play-state: running;
+}
+
+@keyframes showEight12 {
+    from {
+        top: 208px;
+        left: 48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 108px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Nine1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Ninecontainer #Nine1 {
+    animation: showNine1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ninecontainer:active #Nine1,
+#Ninecontainer:focus #Nine1,
+#Ninecontainer:hover #Nine1 {
+    animation-play-state: running;
+}
+
+@keyframes showNine1 {
+    from {
+        top: -108px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Nine2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+
+}
+
+#Ninecontainer #Nine2 {
+    animation: showNine2 2s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ninecontainer:active #Nine2,
+#Ninecontainer:focus #Nine2,
+#Ninecontainer:hover #Nine2 {
+    animation-play-state: running;
+}
+
+@keyframes showNine2 {
+    from {
+        top: 48px;
+        left: -48px;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    opacity: 1;
+}
+
+#Nine3 {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Ninecontainer #Nine3 {
+    animation: showNine3 2s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ninecontainer:active #Nine3,
+#Ninecontainer:focus #Nine3,
+#Ninecontainer:hover #Nine3 {
+    animation-play-state: running;
+}
+
+@keyframes showNine3 {
+    from {
+        top: 68px;
+        left: -48px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 68px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Nine4 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Ninecontainer #Nine4 {
+    animation: showNine4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ninecontainer:active #Nine4,
+#Ninecontainer:focus #Nine4,
+#Ninecontainer:hover #Nine4 {
+    animation-play-state: running;
+}
+
+@keyframes showNine4 {
+    from {
+        top: 8px;
+        left: 128px;
+        width: 0;
+        height: 0;
+        border-top: 60px solid transparent;
+        border-bottom: 60px solid red;
+        border-right: 60px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Nine5 {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Ninecontainer #Nine5 {
+    animation: showNine5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Ninecontainer:active #Nine5,
+#Ninecontainer:focus #Nine5,
+#Ninecontainer:hover #Nine5 {
+    animation-play-state: running;
+}
+
+@keyframes showNine5 {
+    from {
+        top: 148px;
+        left: 28px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 48px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Nine6 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Nine7 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+
+}
+
+#Nine8 {
+    top: 128px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Exla1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Exlacontainer #Exla1 {
+    animation: showExla1 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Exlacontainer:active #Exla1,
+#Exlacontainer:focus #Exla1,
+#Exlacontainer:hover #Exla1 {
+    animation-play-state: running;
+}
+
+@keyframes showExla1 {
+    from {
+        top: 8px;
+        left: -128px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(1);
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    opacity: 1;
+}
+
+#Exla2 {
+    top: 48px;
+    left: 8px;
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+#Exla3 {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Exlacontainer #Exla3 {
+    animation: showExla3 2s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Exlacontainer:active #Exla3,
+#Exlacontainer:focus #Exla3,
+#Exlacontainer:hover #Exla3 {
+    animation-play-state: running;
+}
+
+@keyframes showExla3 {
+    from {
+        top: 108px;
+        left: 108px;
+        width: 0;
+        height: 0;
+        border-top: 90px solid red;
+        border-bottom: 90px solid transparent;
+        border-right: 90px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 108px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Exla4 {
+    top: 128px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Exlacontainer #Exla4 {
+    animation: showExla4 1s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Exlacontainer:active #Exla4,
+#Exlacontainer:focus #Exla4,
+#Exlacontainer:hover #Exla4 {
+    animation-play-state: running;
+}
+
+@keyframes showExla4 {
+    from {
+        top: 228px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 128px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Ques1 {
+    top: 8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Ques2 {
+    top: 48px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Ques3 {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Quescontainer #Ques3 {
+    animation: showQues3 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Quescontainer:active #Ques3,
+#Quescontainer:focus #Ques3,
+#Quescontainer:hover #Ques3 {
+    animation-play-state: running;
+}
+
+@keyframes showQues3 {
+    from {
+        top: 8px;
+        left: 128px;
+        width: 0;
+        height: 0;
+        border-top: 80px solid transparent;
+        border-bottom: 80px solid red;
+        border-right: 80px solid transparent;
+        transform: scalex(1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 8px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Ques4 {
+    top: 68px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Quescontainer #Ques4 {
+    animation: showQues4 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Quescontainer:active #Ques4,
+#Quescontainer:focus #Ques4,
+#Quescontainer:hover #Ques4 {
+    animation-play-state: running;
+}
+
+@keyframes showQues4 {
+    from {
+        top: 68px;
+        left: -128px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid red;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 68px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Ques5 {
+    top: 108px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Quescontainer #Ques5 {
+    animation: showQues5 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Quescontainer:active #Ques5,
+#Quescontainer:focus #Ques5,
+#Quescontainer:hover #Ques5 {
+    animation-play-state: running;
+}
+
+@keyframes showQues5 {
+    from {
+        top: 108px;
+        left: -128px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid red;
+        border-bottom: 20px solid transparent;
+        border-right: 20px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 108px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Ques6 {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Quescontainer #Ques6 {
+    animation: showQues6 2s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+}
+
+#Quescontainer:active #Ques6,
+#Quescontainer:focus #Ques6,
+#Quescontainer:hover #Ques6 {
+    animation-play-state: running;
+}
+
+@keyframes showQues6 {
+    from {
+        top: 128px;
+        left: 128px;
+        width: 0;
+        height: 0;
+        border-top: 100px solid red;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid transparent;
+        transform: scalex(-1);
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+to {
+    top: 128px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+    opacity: 1;
+}
+
+#Ques7 {
+    top: 28px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid red;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Ques8 {
+    top: 68px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Ques9 {
+    top: 88px;
+    left: 48px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid red;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
