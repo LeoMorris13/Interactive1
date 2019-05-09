@@ -679,7 +679,7 @@ body {
 
 #description {
     position: relative;
-    top: 1700px;
+    top: 1300px;
     left: 570px;
     text-align: center;
     font-family: din-2014, sans-serif;
@@ -694,11 +694,11 @@ body {
 }
 
 #type {
-    top: 2000px;
+    top: 1400px;
     left: 210px;
     position: relative;
     transform: scale(1.35);
-    margin-bottom: 4500px;
+    margin-bottom: 3000px;
 
 }
 
