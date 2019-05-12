@@ -679,7 +679,7 @@ body {
 
 #description {
     position: relative;
-    top: 1300px;
+    top: 1450px;
     left: 570px;
     text-align: center;
     font-family: din-2014, sans-serif;
@@ -692,6 +692,70 @@ body {
     font-size: 107%;
     text-align: left;
 }
+
+#Shapes {
+    top: 1375px;
+    left: 570px;
+    position: relative;
+}
+
+#Shape1 {
+    top: 0px;
+    left: 170px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+}
+
+#Shape2 {
+    top: -50px;
+    left: 80px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid red;
+    border-right: 50px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
+#Shape3 {
+    top: -50px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid red;
+    border-right: 50px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Shape4 {
+    top: 0px;
+    left: 260px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid red;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid transparent;
+    transform: scalex(1);
+    position: absolute;
+}
+
+#Shape5 {
+    top: 0px;
+    left: 340px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid red;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid transparent;
+    transform: scalex(-1);
+    position: absolute;
+}
+
 
 #type {
     top: 1400px;
@@ -2986,7 +3050,7 @@ body {
 
 @keyframes showJ3 {
     from {
-        top: -612px;
+        top: -112px;
         left: 48px;
         width: 0;
         height: 0;

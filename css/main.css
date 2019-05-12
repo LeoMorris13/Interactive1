@@ -8,7 +8,7 @@
 
 
 body {
-  background-color: gold;
+  background-color: white;
   color: black;
   font-size: 15px;
   font-family: 'Courier New', Courier, monospace;
@@ -58,29 +58,4 @@ p {
   font-size: 1.3em;
   line-height: 1.9;
   margin-bottom: 2em;
-}
-
-#block {
-  position: fixed;
-  top: -10em;
-  left: -3em;
-  background-color: red;
-
-  height: 3000px;
-  width: 100px;
-  margin: 30px;
-  padding: 1em;
-
-}
-
-#block2 {
-  position: fixed;
-  top: -10em;
-  left: 85em;
-  background-color: red;
-  height: 5000px;
-  width: 100px;
-  margin: 30px;
-  padding: 1em;
-
 }
