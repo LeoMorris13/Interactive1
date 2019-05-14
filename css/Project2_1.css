@@ -691,6 +691,7 @@ body {
     letter-spacing: 0.1px;
     font-size: 107%;
     text-align: left;
+    hyphens: ;
 }
 
 #Shapes {
@@ -3817,9 +3818,9 @@ body {
 @keyframes showN6 {
     from {
         top: 68px;
-        left: -348px;
-        height: 600px;
-        width: 200px;
+        left: -148px;
+        height: 120px;
+        width: 40px;
         background-color: red;
         opacity: 0;
     }
@@ -4140,7 +4141,7 @@ body {
 @keyframes showP2 {
     from {
         top: 48px;
-        left: -308px;
+        left: -108px;
         width: 40px;
         height: 160px;
         background-color: red;
